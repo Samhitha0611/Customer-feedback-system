@@ -1,0 +1,23 @@
+{
+  "reviews": {
+    "records_evaluated": 25000,
+    "sentiment_accuracy": 0.8708,
+    "sentiment_macro_f1": 0.8542,
+    "theme_accuracy": 0.8442,
+    "theme_macro_f1": 0.7472
+  },
+  "survey_responses": {
+    "records_evaluated": 25000,
+    "sentiment_accuracy": 0.8743,
+    "sentiment_macro_f1": 0.8578,
+    "theme_accuracy": 0.8451,
+    "theme_macro_f1": 0.7489
+  },
+  "support_messages": {
+    "records_evaluated": 20000,
+    "sentiment_accuracy": 0.8768,
+    "sentiment_macro_f1": 0.8599,
+    "theme_accuracy": 0.8451,
+    "theme_macro_f1": 0.7473
+  }
+}

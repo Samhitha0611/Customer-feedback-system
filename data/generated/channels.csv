@@ -1,0 +1,6 @@
+channel_id,channel_name,channel_type
+CH-001,Survey,Owned
+CH-002,Review Website,Public
+CH-003,Support Portal,Owned
+CH-004,Mobile App,Owned
+CH-005,Email,Owned

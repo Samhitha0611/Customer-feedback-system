@@ -1,0 +1,12 @@
+# Assumptions, trade-offs and limitations
+- Synthetic data is used; no real customer data is required.
+- Each record receives one primary theme, although real feedback may have multiple themes.
+- Priority is a transparent baseline derived from feedback volume × negative rate, not an approved SLA.
+- SQLite is locally runnable; VADER is fast and requires no API key; keyword taxonomy is explainable.
+- Lexicon sentiment can miss sarcasm, negation, domain context and multilingual nuance.
+- Keyword themes can miss synonyms and overlapping topics.
+- PII masking uses simple email and phone patterns and is not a full privacy detector.
+- The dashboard's data-quality register retains the five labelled synthetic anomalies; it is not a general-purpose anomaly detector.
+- Sentiment and theme metrics are measured against synthetic labels created by the same data generator, so they should not be interpreted as expected real-world performance.
+- Synthetic distributions do not represent actual customers. Human review is required before action.
+- Next: human-labelled holdout data, multilingual embeddings, multi-label themes, action owners/due dates, audit history and change-point detection.

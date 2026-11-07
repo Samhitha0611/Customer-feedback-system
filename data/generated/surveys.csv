@@ -1,0 +1,4 @@
+survey_id,survey_name,product_id,channel_id,start_date,end_date,status
+SUR-2026-000001,Post Purchase,PRD-001,CH-001,2026-01-01,2026-12-31,active
+SUR-2026-000002,Customer Satisfaction,PRD-002,CH-001,2026-01-01,2026-12-31,active
+SUR-2026-000003,Support Follow-up,PRD-003,CH-001,2026-01-01,2026-12-31,active
